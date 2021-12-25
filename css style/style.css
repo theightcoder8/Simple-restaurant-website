@@ -1,0 +1,677 @@
+/*------------------------- SECTION1 ---------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace, lucida console;
+}
+
+:root {
+    --sec1btn: #cf1d16;
+    --sec2backg: #f8f9fa;
+    --sec2color: #c73f36;
+    --sec2grey: #a5aea0;
+    --sec6green: rgb(57, 247, 57);
+    --sec7bckg: #262626;
+} 
+
+
+
+.section1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/sec1background.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+.navbar1 {
+    height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.navbar1 h1 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+.sec1nav2 a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 2%;
+}
+.sec1nav2 a:hover {
+    color: rgb(231, 220, 220);
+}
+.btn1 {
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 1% 2.5% 1% 2.5%; 
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    background: var(--sec1btn);
+    border: 0.5px var(--sec1btn);
+}
+.btn1:hover {
+    cursor: pointer;
+    color: var(--sec1btn);
+    background: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.sec1nav3 i {
+    display: none;
+}
+
+.main1 {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5%;
+    text-align: center;
+}
+.main1 p {
+    margin: 0% 15% 0 15%;
+}
+.btn1vol2 {
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 0.75% 1.25% 0.75% 1.25%; 
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0.5px solid rgb(255, 255, 255);
+}
+.btn1vol2:hover {
+    cursor: pointer;
+    color: var(--sec1btn);
+    background: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+
+
+
+
+/*------------------------- SECTION2 ---------------------------*/
+.section2 {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 15% 0 15%;
+    gap: 2%;
+    background: var(--sec2bavkg);
+}
+.section2 > div h4 {
+    padding-top: 4%;
+    color: var(--sec2color);
+}
+.section2 > div p {
+    font-size: 12.5px;
+    padding-top: 5%;
+    color: var(--sec2grey);
+}
+.section2 > div i {
+    font-size: 30px;
+}
+
+
+
+
+
+/*------------------------- SECTION3 ---------------------------*/
+.section3 {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    height: 100vh;
+}
+
+.navbar3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1%;
+}
+.img3vol1 {
+    background-image: url(../images/sec3img1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.img3vol1:hover {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.img3vol1:hover p {
+    color: var(--sec1btn);
+    background: rgb(255, 255, 255);
+}
+.img3vol1 p {
+    border-radius: 50%;
+    padding: 4% 1% 4% 1%;
+    color: rgb(255, 255, 255);
+    background: var(--sec1btn);
+}
+.img3vol2 {
+    background-image: url(../images/sec3img2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.img3vol2 p {
+    border-radius: 50%;
+    padding: 4% 1% 4% 1%;
+    color: rgb(255, 255, 255);
+    background: var(--sec1btn);
+}
+.img3vol1 h1 {
+    margin: 5% 10% 5% 10%;
+    text-align: center;
+    font-size: 25px;
+}
+.img3vol2 h1 {
+    margin: 5% 10% 5% 10%;
+    text-align: center;
+    font-size: 25px;
+}
+.img3vol2:hover {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.img3vol2:hover p {
+    color: var(--sec1btn);
+    background: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+/*------------------------- SECTION4 ---------------------------*/
+.section4 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--sec2backg);
+}
+
+.heading4 {
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading4 h1 {
+    margin: 1%;
+    font-weight: bolder;
+}
+
+.container4 {
+    height: 65vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0% 20% 5% 20%;
+}
+
+.container4 > div {
+    text-align: left;
+}
+
+.firstline4 > div, .secondline4 > div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 11% 11% 10% 10%;    
+}
+.firstline4 p, .secondline4 p {
+    margin-top: 8%;
+    font-size: 10px;
+    color: var(--sec2grey);
+}
+.firstline4 h3, .secondline4 h3 {
+    margin-top: 10%;
+    color: var(--sec1btn);
+}
+.firstline4, .secondline4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.sec4box2 {
+    background: url(../images/sec41.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sec4box4 {
+    background: url(../images/sec42.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sec4box5 {
+    background: url(../images/sec43.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sec4box7 {
+    background: url(../images/sec44.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sec4box1, .sec4box3, .sec4box6, .sec4box8 {
+    background: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+/*------------------------- SECTION5 ---------------------------*/
+.section5 {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.heading5 {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.container5 {
+    height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5% 20% 15% 20%;
+}
+.container5 > div p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 12.5px;
+    line-height: 17.5px;
+    margin-right: 10%;
+}
+.sec5box1, .sec5box2, .sec5box3 {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+#avatar1, #avatar2, #avatar3 {
+    border-radius: 50%;
+    margin: 5% 0% 0% 5%;
+}
+.sec5box1img, .sec5box2img, .sec5box3img {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------------- SECTION6 ---------------------------*/
+.section6 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    transition: 10s;
+}
+.heading6 {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main6 {
+    height: 75vh;
+    display: grid;
+    grid-template-rows: 5fr 3fr;
+}
+.firstline6 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 4% 22%;
+}
+.firstline6 > div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 11% 14% 10% 6%;  
+}
+.firstline6 p {
+    margin-bottom: 8%;
+    font-size: 10px;
+    color: var(--sec2grey);
+}
+.firstline6 h4 {
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-weight: lighter;
+}
+.firstline6 h5 {
+    margin-bottom: 7%;
+    font-weight: lighter;
+}
+.sec6box1 {
+    background: url(../images/sec61.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sec6box3 {
+    background: url(../images/sec62.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.btn6 {
+    border: 1px solid var(--sec1btn);
+    background: var(--sec1btn);
+    color: var(--sec2backg);
+    text-align: center;
+    font-size: 10px;
+    padding: 2.8% 2% 2.8% 2%;
+    margin: 0% 50% 0% 0%;
+}
+
+.secondline6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    background: var(--sec2backg);
+}
+.secondline6 p {
+    margin: 0% 35%;
+    font-size: 11px;
+    color: var(--sec2grey);
+}
+.secondline6 h1 {
+    font-size: 18px;
+    font-weight: lighter;
+}
+.inputpart {
+    padding: 0% 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 7.5%;
+}
+.input6 {
+    border: 1px solid var(--sec2grey);
+}
+.btn62 {
+    border: 1px solid var(--sec1btn);
+    color: rgb(255, 255, 255);
+    background: var(--sec1btn);
+    padding: 2.5% 6.5%;
+    text-align: center;
+    font-weight: bolder;
+}
+.btn6:hover, .btn62:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background: var(--sec2backg);
+    color: var(--sec1btn);
+}
+.btn6:focus, .btn62:focus{
+    border: 0.5px solid rgb(255, 255, 255);
+    background: var(--sec6green);
+    color: rgb(255, 255, 255);
+    transition: 0.6s;
+}
+.input6:focus, text:focus {
+    outline: 1px solid var(--sec2grey);
+    transition: 2s;
+}
+
+
+
+
+
+/*------------------------- SECTION7 ---------------------------*/
+.section7 {
+    background: var(--sec7bckg);
+    color: rgb(255, 255, 255);
+    height: 65vh;
+}
+.container7 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 20% 10% 20%;
+    gap: 5%;
+    padding-top: 5%;
+}
+.container7 h4 {
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    margin-bottom: 4%;
+    margin-top: 10%;
+}
+.container7 p {
+    color: var(--sec2grey);
+    font-size: 12.5px;
+    margin-top: 3%;
+}
+.sec7box1 p {
+    margin-top: 10%;
+}
+.sec7box12 {
+    margin-top: 17.5%;
+} 
+
+.sec7box2 {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    gap: 5%;
+}
+.sec7box222 p{
+    margin-top: 5%;
+}
+
+.sec5box3 {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.sec7box32 {
+    display: flex;
+    flex-direction: column;
+}
+.sec7box32 a {
+    color: var(--sec1btn);
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 5%;
+}
+.sec7box32 a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.6s;
+}
+
+
+
+
+
+
+@media(max-width: 812px) {
+    .section1 {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        background-image: url(../images/sec1background.jpg);
+        background-position: center;
+        background-size: cover;
+        color: rgb(255, 255, 255);
+    }
+    .navbar1 {
+        height: 10vh;
+        display: grid;
+        grid-template-columns: 5fr 5fr 1fr;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background: rgb(0, 0, 0);
+    }
+    .sec1nav2 {
+        display: none;
+    }
+    .btn1 {
+        display: none;
+    }
+    .sec1nav3 i{
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: right;
+        justify-content: right;
+        font-size: 20px;
+    }
+    .sec1nav3 a{
+        color: rgb(0, 0, 0);
+    }
+
+    .main1 {
+        gap: 3%;
+        margin-bottom: 50%;
+        padding-bottom: 30%;
+    }
+
+    /*-----------------------SECTION2------------------------------*/
+    .section2 {
+        flex-direction: column;
+    }
+
+
+
+
+    /*-----------------------SECTION3------------------------------*/
+    .section3{
+        display: none;
+    }
+    /*-----------------------SECTION4------------------------------*/
+    .section4 {
+        height: 150vh;
+    }
+    .container3 {
+        margin-top: 1%;
+        display: flex;
+        flex-direction: column;
+    }
+    .firstline4 {
+        display: flex;
+        flex-direction: column;
+    }
+    .secondline4 {
+        display: none;
+    }
+    .sec4box2, .sec4box4, .sec4box7 {
+        height: 25vh;
+    }
+
+
+    /*-----------------------SECTION5------------------------------*/
+    .section5 {
+        height: 125vh;
+    }
+    .container5 {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec5box1, .sec5box2, .sec5box3 {
+        display: grid;
+        grid-template-rows: 1fr 0.5fr;
+    }
+
+
+    /*-----------------------SECTION6------------------------------*/
+    .section6 {
+        height: 150vh;
+    }
+    .main6 {
+        display: flex;
+        flex-direction: column;
+    }
+    .firstline6 {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec6box1, .sec6box3 {
+        border: 1px solid black;
+        height: 20vh;
+    }
+    .inputpart{
+        display: flex;
+        flex-direction: column;
+    }
+    .input6 {
+        padding: 2.5%;
+        margin-top: 2%;
+    }
+    .btn62 {
+        margin-top: 5%;
+    }
+
+    .section7 {
+        height: 150vh;
+    }
+    
+    .container7 {
+        display: flex;
+        flex-direction: column;
+    }
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
