@@ -1,1 +1,1 @@
-# Simple-restaurant-website
+# SimpleRestaurantWebsiteUI
