@@ -1,5 +1,5 @@
 # Simple-restaurant-website
-https://strong-chimera-2e17e9.netlify.app/
+Website link: https://strong-chimera-2e17e9.netlify.app/
 * Using HTML and CSS
 
 ![1](https://user-images.githubusercontent.com/50680651/156785481-b5e462fe-4a93-4348-9e59-6b33ba0e1bb1.PNG)
