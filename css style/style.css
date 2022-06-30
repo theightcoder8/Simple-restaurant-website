@@ -14,8 +14,6 @@
     --sec7bckg: #262626;
 } 
 
-
-
 .section1 {
     height: 100vh;
     display: flex;
@@ -64,7 +62,6 @@
 .sec1nav3 i {
     display: none;
 }
-
 .main1 {
     height: 90vh;
     display: flex;
@@ -95,9 +92,6 @@
 }
 
 
-
-
-
 /*------------------------- SECTION2 ---------------------------*/
 .section2 {
     height: 70vh;
@@ -123,16 +117,12 @@
 }
 
 
-
-
-
 /*------------------------- SECTION3 ---------------------------*/
 .section3 {
     display: grid;
     grid-template-rows: 1fr 2fr;
     height: 100vh;
 }
-
 .navbar3 {
     display: flex;
     flex-direction: column;
@@ -161,15 +151,20 @@
     color: rgb(0, 0, 0);
     transition: 0.5s;
 }
-.img3vol1:hover p {
-    color: var(--sec1btn);
-    background: rgb(255, 255, 255);
+.img3vol1 h1 {
+    margin: 5% 10% 5% 10%;
+    text-align: center;
+    font-size: 25px;
 }
 .img3vol1 p {
     border-radius: 50%;
     padding: 4% 1% 4% 1%;
     color: rgb(255, 255, 255);
     background: var(--sec1btn);
+}
+.img3vol1:hover p {
+    color: var(--sec1btn);
+    background: rgb(255, 255, 255);
 }
 .img3vol2 {
     background-image: url(../images/sec3img2.jpg);
@@ -182,36 +177,26 @@
     text-align: center;
     color: rgb(255, 255, 255);
 }
-.img3vol2 p {
-    border-radius: 50%;
-    padding: 4% 1% 4% 1%;
-    color: rgb(255, 255, 255);
-    background: var(--sec1btn);
-}
-.img3vol1 h1 {
-    margin: 5% 10% 5% 10%;
-    text-align: center;
-    font-size: 25px;
+.img3vol2:hover {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
 }
 .img3vol2 h1 {
     margin: 5% 10% 5% 10%;
     text-align: center;
     font-size: 25px;
 }
-.img3vol2:hover {
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    transition: 0.5s;
+.img3vol2 p {
+    border-radius: 50%;
+    padding: 4% 1% 4% 1%;
+    color: rgb(255, 255, 255);
+    background: var(--sec1btn);
 }
 .img3vol2:hover p {
     color: var(--sec1btn);
     background: rgb(255, 255, 255);
 }
-
-
-
-
-
 
 
 /*------------------------- SECTION4 ---------------------------*/
@@ -221,7 +206,6 @@
     flex-direction: column;
     background: var(--sec2backg);
 }
-
 .heading4 {
     height: 35vh;
     display: flex;
@@ -233,18 +217,15 @@
     margin: 1%;
     font-weight: bolder;
 }
-
 .container4 {
     height: 65vh;
     display: grid;
     grid-template-rows: 1fr 1fr;
     margin: 0% 20% 5% 20%;
 }
-
 .container4 > div {
     text-align: left;
 }
-
 .firstline4 > div, .secondline4 > div {
     display: flex;
     flex-direction: column;
@@ -289,11 +270,6 @@
 }
 
 
-
-
-
-
-
 /*------------------------- SECTION5 ---------------------------*/
 .section5 {
     height: 90vh;
@@ -334,14 +310,6 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
 }
-
-
-
-
-
-
-
-
 
 
 /*------------------------- SECTION6 ---------------------------*/
@@ -461,9 +429,6 @@
 }
 
 
-
-
-
 /*------------------------- SECTION7 ---------------------------*/
 .section7 {
     background: var(--sec7bckg);
@@ -526,10 +491,6 @@
 }
 
 
-
-
-
-
 @media(max-width: 812px) {
     .section1 {
         height: 80vh;
@@ -576,9 +537,6 @@
     .section2 {
         flex-direction: column;
     }
-
-
-
 
     /*-----------------------SECTION3------------------------------*/
     .section3{
